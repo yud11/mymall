@@ -2,87 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bf00b1e-72d4-456b-bd41-6c44e6d214aa" name="Default Changelist" comment="demo 测试spring boot">
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/yudi/mymall/dao/UmsMemberReceiveAddressMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/yudi/mymall/pojo/UmsMemberReceiveAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mymallparent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_14_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/OmsCartItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/OmsCompanyAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/OmsOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/OmsOrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/PaymentInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/PmsBaseAttrInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/PmsBaseAttrValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/PmsBaseCatalog1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/PmsBaseCatalog2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/PmsBaseSaleAttr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/PmsBrand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/PmsProductImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/PmsProductInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/PmsProductSaleAttr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/PmsProductSaleAttrValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/PmsSkuAttrValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/PmsSkuImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/PmsSkuInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/PmsSkuSaleAttrValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/UmsMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/UmsMemberReceiveAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-commonutils/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-service-utils/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mymall-webultis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/yudi/mymall/Controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/yudi/mymall/Controller/DemoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/yudi/mymall/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/yudi/mymall/DemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/yudi/mymall/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/yudi/mymall/dao/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/yudi/mymall/pojo/UmsMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/yudi/mymall/pojo/UmsMember.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/yudi/mymall/service/DemoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/yudi/mymall/service/DemoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/yudi/mymall/Controller/DemoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/com/yudi/mymall/Controller/DemoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/yudi/mymall/DemoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/com/yudi/mymall/DemoApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/yudi/mymall/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/com/yudi/mymall/dao/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/yudi/mymall/pojo/UmsMember.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/com/yudi/mymall/pojo/UmsMember.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/yudi/mymall/service/DemoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/com/yudi/mymall/service/DemoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymall-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mymall-parent/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/demo/target/" />
     <ignored path="$PROJECT_DIR$/mymallparent/target/" />
+    <ignored path="$PROJECT_DIR$/mymall-parent/target/" />
+    <ignored path="$PROJECT_DIR$/mymall-api/target/" />
+    <ignored path="$PROJECT_DIR$/mymall-commonutils/target/" />
+    <ignored path="$PROJECT_DIR$/mymall-webultis/target/" />
+    <ignored path="$PROJECT_DIR$/mymall-service-utils/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,95 +71,73 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/pom.xml">
+        <entry file="file://$PROJECT_DIR$/mymall-api/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="80" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="609">
+              <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/resources/application.yaml">
+        <entry file="file://$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/OmsOrderItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="129" selection-start-line="2" selection-start-column="129" selection-end-line="2" selection-end-column="129" />
+            <state relative-caret-position="672">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/yudi/mymall/DemoApplication.java">
+        <entry file="file://$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/PaymentInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="840">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/yudi/mymall/Controller/DemoController.java">
+        <entry file="file://$PROJECT_DIR$/mymall-parent/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#504#505#0" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
-              </folding>
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/yudi/mymall/pojo/UmsMemberReceiveAddress.java">
+        <entry file="file://$PROJECT_DIR$/mymall-commonutils/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="16" column="27" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/yudi/mymall/dao/UmsMemberReceiveAddressMapper.java">
+        <entry file="file://$PROJECT_DIR$/mymall-webultis/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/yudi/mymall/service/DemoService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="441">
+              <caret line="21" column="21" selection-start-line="17" selection-start-column="8" selection-end-line="21" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mymallparent/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/mymall-service-utils/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/yudi/mymall/dao/UserMapper.java">
+        <entry file="file://$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/PmsBaseAttrInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+            <state relative-caret-position="420">
+              <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -209,10 +146,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/yudi/mymall/pojo/UmsMember.java">
+        <entry file="file://$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/PmsBaseAttrValue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            <state relative-caret-position="399">
+              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/PmsBaseCatalog1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -246,6 +192,18 @@
         <option value="$PROJECT_DIR$/demo/src/main/java/com/yudi/mymall/dao/UmsMemberReceiveAddressMapper.java" />
         <option value="$PROJECT_DIR$/demo/src/main/java/com/yudi/mymall/service/DemoService.java" />
         <option value="$PROJECT_DIR$/mymallparent/pom.xml" />
+        <option value="$PROJECT_DIR$/mymall-api/pom.xml" />
+        <option value="$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/OmsCartItem.java" />
+        <option value="$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/OmsCompanyAddress.java" />
+        <option value="$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/OmsOrder.java" />
+        <option value="$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/OmsOrderItem.java" />
+        <option value="$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/PaymentInfo.java" />
+        <option value="$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/PmsBaseAttrInfo.java" />
+        <option value="$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/PmsBaseAttrValue.java" />
+        <option value="$PROJECT_DIR$/mymall-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/mymall-commonutils/pom.xml" />
+        <option value="$PROJECT_DIR$/mymall-webultis/pom.xml" />
+        <option value="$PROJECT_DIR$/mymall-service-utils/pom.xml" />
       </list>
     </option>
   </component>
@@ -278,7 +236,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="258" />
     <option name="y" value="64" />
     <option name="width" value="1400" />
@@ -294,7 +252,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -302,11 +260,26 @@
               <item name="mymall" type="b2602c69:ProjectViewProjectNode" />
               <item name="mymall" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="mymall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mymall" type="462c0819:PsiDirectoryNode" />
+              <item name="mymall-commonutils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mymall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mymall" type="462c0819:PsiDirectoryNode" />
+              <item name="mymall-parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mymall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mymall" type="462c0819:PsiDirectoryNode" />
+              <item name="mymall-webultis" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -318,16 +291,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo/src/main/java/com/yudi/mymall/pojo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\code\mymall\mymall-api\src\main\java\com\yudi\mymall" />
       <recent name="F:\code\mymall\demo\src\main\java\com\yudi\mymall\pojo" />
     </key>
   </component>
@@ -366,17 +340,19 @@
       <workItem from="1578840760621" duration="33000" />
       <workItem from="1578840820193" duration="5739000" />
       <workItem from="1579088464188" duration="739000" />
-      <workItem from="1579183496380" duration="3349000" />
+      <workItem from="1579183496380" duration="3712000" />
+      <workItem from="1580712411401" duration="26000" />
+      <workItem from="1580826359823" duration="2598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9925000" />
+    <option name="totallyTimeSpent" value="12912000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" x="725" y="71" width="469" height="898" id="Project" order="0" visible="true" weight="0.26066098" />
+      <window_info active="true" content_ui="combo" x="725" y="71" width="469" height="898" id="Project" order="0" visible="true" weight="0.26599148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -386,7 +362,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5033408" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5033408" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -447,20 +423,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/yudi/mymall/pojo/UmsMember.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mymallparent/pom.xml" />
     <entry file="file://$PROJECT_DIR$/demo/src/main/resources/application.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -470,7 +433,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/yudi/mymall/DemoApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="147">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -480,30 +443,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/yudi/mymall/Controller/DemoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="294">
           <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/yudi/mymall/pojo/UmsMemberReceiveAddress.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
+        <state relative-caret-position="231">
           <caret line="16" column="27" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/yudi/mymall/dao/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -512,7 +463,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/yudi/mymall/dao/UmsMemberReceiveAddressMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="105">
           <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -522,7 +473,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/yudi/mymall/service/DemoService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="420">
           <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -530,8 +481,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mymallparent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/yudi/mymall/dao/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/yudi/mymall/pojo/UmsMember.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="55" selection-start-line="50" selection-start-column="7" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/OmsCartItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" selection-start-line="12" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/OmsCompanyAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/OmsOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/OmsOrderItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/PaymentInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/PmsBaseAttrValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/PmsBaseCatalog1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mymall-api/src/main/java/com/yudi/mymall/PmsBaseAttrInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mymall-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mymall-parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mymall-commonutils/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mymall-webultis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="21" selection-start-line="17" selection-start-column="8" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mymall-service-utils/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
@@ -583,7 +655,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>mymall</last-edited>
+          <last-edited>mymall-parent</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

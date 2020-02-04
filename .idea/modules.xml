@@ -6,7 +6,11 @@
       <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo/src/main/main.iml" filepath="$PROJECT_DIR$/demo/src/main/main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/mymall.iml" filepath="$PROJECT_DIR$/.idea/mymall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mymall-api/mymall-api.iml" filepath="$PROJECT_DIR$/mymall-api/mymall-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mymall-commonutils/mymall-commonutils.iml" filepath="$PROJECT_DIR$/mymall-commonutils/mymall-commonutils.iml" />
       <module fileurl="file://$PROJECT_DIR$/mymall-parent/mymall-parent.iml" filepath="$PROJECT_DIR$/mymall-parent/mymall-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mymall-service-utils/mymall-service-utils.iml" filepath="$PROJECT_DIR$/mymall-service-utils/mymall-service-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mymall-webultis/mymall-webultis.iml" filepath="$PROJECT_DIR$/mymall-webultis/mymall-webultis.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo/src/test/test.iml" filepath="$PROJECT_DIR$/demo/src/test/test.iml" />
     </modules>
   </component>
