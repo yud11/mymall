@@ -6,6 +6,8 @@
     <file url="file://$PROJECT_DIR$/mymall-commonutils" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mymall-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mymall-service-utils" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mymall-user-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mymall-user-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mymall-webultis" charset="UTF-8" />
   </component>
 </project>

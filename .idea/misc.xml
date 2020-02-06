@@ -12,6 +12,8 @@
         <option value="$PROJECT_DIR$/mymall-commonutils/pom.xml" />
         <option value="$PROJECT_DIR$/mymall-webultis/pom.xml" />
         <option value="$PROJECT_DIR$/mymall-service-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/mymall-user-web/pom.xml" />
+        <option value="$PROJECT_DIR$/mymall-user-service/pom.xml" />
       </list>
     </option>
   </component>

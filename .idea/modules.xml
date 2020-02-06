@@ -10,6 +10,8 @@
       <module fileurl="file://$PROJECT_DIR$/mymall-commonutils/mymall-commonutils.iml" filepath="$PROJECT_DIR$/mymall-commonutils/mymall-commonutils.iml" />
       <module fileurl="file://$PROJECT_DIR$/mymall-parent/mymall-parent.iml" filepath="$PROJECT_DIR$/mymall-parent/mymall-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/mymall-service-utils/mymall-service-utils.iml" filepath="$PROJECT_DIR$/mymall-service-utils/mymall-service-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mymall-user-service/mymall-user-service.iml" filepath="$PROJECT_DIR$/mymall-user-service/mymall-user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mymall-user-web/mymall-user-web.iml" filepath="$PROJECT_DIR$/mymall-user-web/mymall-user-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/mymall-webultis/mymall-webultis.iml" filepath="$PROJECT_DIR$/mymall-webultis/mymall-webultis.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo/src/test/test.iml" filepath="$PROJECT_DIR$/demo/src/test/test.iml" />
     </modules>
