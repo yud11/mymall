@@ -8,6 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/mymall.iml" filepath="$PROJECT_DIR$/.idea/mymall.iml" />
       <module fileurl="file://$PROJECT_DIR$/mymall-api/mymall-api.iml" filepath="$PROJECT_DIR$/mymall-api/mymall-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/mymall-commonutils/mymall-commonutils.iml" filepath="$PROJECT_DIR$/mymall-commonutils/mymall-commonutils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mymall-manage-service/mymall-manage-service.iml" filepath="$PROJECT_DIR$/mymall-manage-service/mymall-manage-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mymall-manage-web/mymall-manage-web.iml" filepath="$PROJECT_DIR$/mymall-manage-web/mymall-manage-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/mymall-parent/mymall-parent.iml" filepath="$PROJECT_DIR$/mymall-parent/mymall-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/mymall-service-utils/mymall-service-utils.iml" filepath="$PROJECT_DIR$/mymall-service-utils/mymall-service-utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/mymall-user-service/mymall-user-service.iml" filepath="$PROJECT_DIR$/mymall-user-service/mymall-user-service.iml" />

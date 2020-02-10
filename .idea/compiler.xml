@@ -9,9 +9,10 @@
         <module name="demo" />
         <module name="mymall-commonutils" />
         <module name="mymall-user-web" />
-        <module name="mymall-parent" />
+        <module name="mymall-manage-service" />
         <module name="mymall-webultis" />
         <module name="mymall-service-utils" />
+        <module name="mymall-manage-web" />
         <module name="mymall-user-service" />
         <module name="mymall-api" />
       </profile>
@@ -20,6 +21,8 @@
       <module name="demo" target="1.8" />
       <module name="mymall-api" target="1.8" />
       <module name="mymall-commonutils" target="1.8" />
+      <module name="mymall-manage-service" target="1.8" />
+      <module name="mymall-manage-web" target="1.8" />
       <module name="mymall-parent" target="1.8" />
       <module name="mymall-service-utils" target="1.8" />
       <module name="mymall-user-service" target="1.8" />
@@ -31,13 +34,14 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo" options="-parameters" />
-      <module name="mymall-api" options="-parameters" />
-      <module name="mymall-commonutils" options="-parameters" />
+      <module name="mymall-api" options="" />
+      <module name="mymall-commonutils" options="" />
+      <module name="mymall-manage-service" options="" />
       <module name="mymall-parent" options="" />
-      <module name="mymall-service-utils" options="-parameters" />
-      <module name="mymall-user-service" options="-parameters" />
-      <module name="mymall-user-web" options="-parameters" />
-      <module name="mymall-webultis" options="-parameters" />
+      <module name="mymall-service-utils" options="" />
+      <module name="mymall-user-service" options="" />
+      <module name="mymall-user-web" options="" />
+      <module name="mymall-webultis" options="" />
     </option>
   </component>
 </project>

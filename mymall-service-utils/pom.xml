@@ -40,6 +40,12 @@
             <artifactId>jedis</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.apache.zookeeper</groupId>
+            <artifactId>zookeeper</artifactId>
+            <version>3.4.11</version>
+        </dependency>
+
     </dependencies>
 
 </project>

@@ -18,14 +18,15 @@
     <dependencies>
         <dependency>
             <groupId>com.yudi.mymall</groupId>
-            <artifactId>mymall-web-ultis</artifactId>
+            <artifactId>mymall-service-utils</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.yudi.mymall</groupId>
-            <artifactId>mymall-common-utils</artifactId>
+            <artifactId>mymall-api</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+
     </dependencies>
 
     <build>

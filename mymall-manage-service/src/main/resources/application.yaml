@@ -1,0 +1,31 @@
+
+spring:
+  #数据源相关配置
+  datasource:
+    url: jdbc:mysql://localhost:3306/mymall?characterEncodeing=UTF-8&serverTimezone=UTC&autoReconnect=true&failOverReadOnly=false
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+  dubbo:
+    # 表明是哪个项目
+    application: manageService
+    #扫描
+    base-package: com.yudi.mymall
+    #注册中心的地址和协议
+    registry:
+      address: 192.168.197.10:2181
+      protocol: zookeeper
+    #dubbo使用的通信协议
+    protocol:
+      name: dubbo
+mybatis:
+  #扫描mapper文件
+  mapper-locations: classpath:mapper/*Mapper.xml
+  configuration:
+    #驼峰转下划线
+    map-underscore-to-camel-case: true
+
+mapper:
+  identity=MYSQL:
+server:
+  port: 8087

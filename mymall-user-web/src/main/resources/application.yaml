@@ -1,0 +1,18 @@
+
+spring:
+  dubbo:
+    # 表明是哪个项目
+    application: userWeb
+    #扫描
+    base-package: com.yudi.mymall
+    #注册中心的地址和协议
+    registry:
+      address: zookeeper://192.168.197.10:2181
+    #dubbo使用的通信协议
+    consumer:
+      timeout: 600000
+      check: false
+    protocol:
+      name: dubbo
+server:
+  port: 8080
