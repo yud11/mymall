@@ -3,8 +3,10 @@ package com.yudi.mymall.mymallmanageservice.service;
 import com.alibaba.dubbo.config.annotation.Service;
 import com.yudi.mymall.mymallmanageservice.mapper.AttrInfoMapper;
 import com.yudi.mymall.mymallmanageservice.mapper.AttrValMapper;
+import com.yudi.mymall.mymallmanageservice.mapper.PmsBaseSaleAttrMapper;
 import com.yudi.mymall.pojo.PmsBaseAttrInfo;
 import com.yudi.mymall.pojo.PmsBaseAttrValue;
+import com.yudi.mymall.pojo.PmsBaseSaleAttr;
 import com.yudi.mymall.service.AtrrService;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -22,6 +24,10 @@ public class AttrServiceImpl implements AtrrService {
 
     @Autowired
     private AttrValMapper attrValMapper;
+
+
+    @Autowired
+    private PmsBaseSaleAttrMapper pmsBaseSaleAttrMapper;
     @Override
     public List<PmsBaseAttrInfo> attrInfoList(String catalog3Id) {
         PmsBaseAttrInfo pmsBaseAttrInfo = new PmsBaseAttrInfo();
@@ -38,5 +44,17 @@ public class AttrServiceImpl implements AtrrService {
             pmsBaseAttrValue.setAttrId(pmsBaseAttrInfo.getId());
             attrValMapper.insertSelective(pmsBaseAttrValue);
         }
+    }
+
+
+    public List<PmsBaseAttrValue> getAttrValueList(String attrId) {
+        PmsBaseAttrValue pmsBaseAttrValue = new PmsBaseAttrValue();
+        pmsBaseAttrValue.setAttrId(attrId);
+        return attrValMapper.select(pmsBaseAttrValue);
+    }
+
+    @Override
+    public List<PmsBaseSaleAttr> baseSaleAttrList(String attrId) {
+        return pmsBaseSaleAttrMapper.selectAll();
     }
 }
